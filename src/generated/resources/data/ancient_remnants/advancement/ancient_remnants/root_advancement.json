@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "joined_world": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:block/mossy_stone_bricks",
+    "description": "You have entered a world once shaped by a powerful civilization. Now, it is all gone - except for a few ruins.",
+    "icon": {
+      "id": "minecraft:mossy_stone_bricks"
+    },
+    "title": "Ancient Remnants"
+  },
+  "requirements": [
+    [
+      "joined_world"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "ancient_remnants:ancient_remnants/root_advancement",
+  "criteria": {
+    "found_large_bridge": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:pillager_outpost"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "Two ends, two goals, wherever it may lead.",
+    "icon": {
+      "id": "minecraft:mossy_stone_bricks"
+    },
+    "title": "The Bridge"
+  },
+  "requirements": [
+    [
+      "found_large_bridge"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
