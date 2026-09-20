@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "ancient_remnants:pillar_large_ocean",
+      "weight": 5
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+
+    "salt": 1201625564,
+
+    "spacing": 200,
+
+    "separation": 60
+  }
+}

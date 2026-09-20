@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "ancient_remnants:aquaduct_older",
+      "weight": 5
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+
+    "salt": 1201625580,
+
+    "spacing": 200,
+
+    "separation": 100
+  }
+}
